@@ -1,0 +1,18 @@
+# Terraform EC2 Web Hosting on AWS
+
+This project deploys an Ubuntu EC2 instance in AWS `ap-south-1`, installs Apache, and hosts a website using Terraform.
+
+## Features
+
+- Creates VPC, Subnet, Security Groups
+- Launches Ubuntu EC2
+- Installs Apache, unzip, curl, MySQL
+- Downloads and hosts Tooplate template
+- SSH + HTTP + MySQL ports open
+- Outputs public IP for access
+
+## Usage
+
+```bash
+terraform init
+terraform apply
